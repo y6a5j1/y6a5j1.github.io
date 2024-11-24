@@ -14,7 +14,7 @@ buildExpired = false
 relativeURLs = true
 disableRSS = true
 enableRobotsTXT = true
-editor = "nano"
+editor = "nvim"
 languageCode = "en"
 language = "en"
 
@@ -30,7 +30,7 @@ _merge = "none"
   # use [params.contact.email] instead.
   #email = "john.doe@example.com"
   description = "Landing Page"
-  bio = "i use GNU Linux.  \n"
+  bio = "i use GNU/Linux.  \n"
   avatar = "img/avatar.jpg"
   # favicon = "img/favicon.ico"
   error404 = "There is no such page."
