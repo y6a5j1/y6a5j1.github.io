@@ -1,0 +1,34 @@
+# Ignore the Hugo output directory (docs) where generated site content is stored
+# /docs/
+# /public/
+
+# Ignore temporary files and editor-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignore OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Ignore Hugo cache and configuration files (optional)
+.hugo_cache/
+# Uncomment the next line if you want to ignore the config.toml file (optional)
+# config.toml
+
+# Ignore node_modules if you're using a front-end build process (e.g., with Hugo Extended)
+node_modules/
+
+# Ignore Hugo's debug output or log files
+hugo_stats.json
+
+# Ignore other files or directories you might want to exclude
+.idea/           # JetBrains IDEs
+.vscode/         # VSCode
+.hugo_build.lock
+
+# Ignore backup files
+*~
+
